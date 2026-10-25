@@ -10,14 +10,14 @@ b6bbf20d0ad56939,full,fix,B3,<reponame><filename> at offset 0,,
 9e059cbb0743aafd,full,fix,B3,<filename> at offset 0,,tab indentation (not a disease)
 9195ba155f4ee31e,full,fix,E4,"licence header ""Copyright"" offset 0 to 629 (10 lines)",,tab indentation (not a disease)
 7f334c23164cab22,full,clean,,,,
-0797d20110e8ab9b,partial,fix,B3;B4,<filename><gh_stars> at offset 0|<EMAIL> at offset 13499 (3x),,"viewer said TOO BIG TO DISPLAY; mechanical checks only, needs full read"
+0797d20110e8ab9b,full,fix,B3;B4;E4,"<filename><gh_stars> at offset 0|<EMAIL> at offset 13499 (3x)|licence header ""Copyright"" offset 69 to 237 (3 lines)",,
 09b5f5db05cc311d,full,fix,A2;B3,"CR at end of 29 lines, first at offset 61|<reponame><gh_stars> at offset 0",61 U+000D CARRIAGE RETURN (29x),
 47cf08b1366662cd,full,fix,B3,<filename> at offset 0,,
 4ac6624748e7453d,full,fix,B3;E4,"<filename> at offset 0|licence header ""Copyright"" offset 46 to 402 (8 lines)",,
-c53cd9bbd7f21d64,partial,,,,,"viewer said TOO BIG TO DISPLAY; mechanical checks only, needs full read"
+c53cd9bbd7f21d64,full,clean,,,,
 65ab6b9b948ddac5,full,clean,,,,
 197d1c752010dd95,full,fix,B3,<filename> at offset 0,,
-c4fdd2a6e18d381d,partial,fix,B3,<filename> at offset 0,,"viewer said TOO BIG TO DISPLAY; mechanical checks only, needs full read"
+c4fdd2a6e18d381d,full,fix,B3,<filename> at offset 0,,
 1a8174fb912f99bd,full,clean,,,,
 d5e1b337f212f4e2,full,fix,A2;B3;B4;E4,"CR at end of 386 lines, first at offset 105|<reponame> at offset 0|<NAME> at offset 388 (2x)|licence header ""Copyright"" offset 29 to 2058 (28 lines)",105 U+000D CARRIAGE RETURN (386x),
 2bfaa545814cf99f,full,fix,B3,<gh_stars> at offset 0,,
@@ -71,7 +71,7 @@ bfa40f662fe0475d,full,clean,,,,
 51aa9142970a7f00,full,fix,B3,<reponame> at offset 0,,tab indentation (not a disease)
 e64d073068d23612,full,fix,B3,<gh_stars> at offset 0,,
 46b1baa8b816d668,full,fix,B4;E4,"<NAME> at offset 155 (1x)|licence header ""Copyright"" offset 0 to 720 (12 lines)",,
-1509ce37d4753335,partial,,,,,"Different language used (Chinese); comments in Chinese, not read well enough to judge; was SKIP"
+1509ce37d4753335,full,clean,,,,Chinese comments; no disease identified in manual review
 fca8a524984334d0,full,clean,,,,
 e52b2ae1f1f5874b,full,clean,,,,
 6c848e4e4e8a988b,full,fix,B3,<gh_stars> at offset 0,,
@@ -88,7 +88,7 @@ ae16a3d6219862f9,full,clean,,,,"competitive-programming problem URL, not F1; F2 
 c35b0e60b77787b6,full,fix,B4;E4,"<PASSWORD> at offset 7732 (2x)|licence header ""Copyright"" offset 0 to 588 (10 lines)",,
 f0de7546032334e6,full,fix,B3;E4,"<reponame> at offset 0|licence header ""All rights reserved"" offset 26 to 1781 (26 lines)",,
 c61fa4827af443d6,full,fix,B3,<gh_stars> at offset 0,,
-4fb8f1ec8cd8973d,partial,fix,B3,<gh_stars> at offset 0,,"viewer said TOO BIG TO DISPLAY; mechanical checks only, needs full read"
+4fb8f1ec8cd8973d,full,fix,B3,<gh_stars> at offset 0,,
 6f186d796348dc32,full,fix,A2;B3,"CR at end of 84 lines, first at offset 62|<filename> at offset 0",62 U+000D CARRIAGE RETURN (84x),
 6d8df76acff62093,full,clean,,,,
 a283a8943ca1d402,full,fix,B3;B4;E4,"<reponame><gh_stars> at offset 0|<NAME> at offset 208 (3x)|licence header ""Copyright"" offset 33 to 614 (8 lines)",,
@@ -99,7 +99,7 @@ f63ec57866305825,full,fix,A1;E4,"BOM at offset 0|licence header ""Copyright"" of
 de679cf725b4e409,full,clean,,,,
 21980c56f7c7f638,full,clean,,,,
 a67189e6272a2a92,full,fix,B4,<NAME> at offset 2790 (1x),,tab indentation (not a disease)
-676d679afd2bf043,partial,fix,A2;B4,"CR at end of 418 lines, first at offset 76|<NAME> at offset 196 (1x)",76 U+000D CARRIAGE RETURN (418x),"viewer said TOO BIG TO DISPLAY; mechanical checks only, needs full read"
+676d679afd2bf043,full,fix,A2;B4,"CR at end of 418 lines, first at offset 76|<NAME> at offset 196 (1x)",76 U+000D CARRIAGE RETURN (418x),
 e3720007416cf1b9,full,clean,,,,"tab indentation (not a disease); PublicKeyToken is a public .NET assembly identifier, not a secret; E3 not labelled"
 a848c92f38ec0dde,full,fix,B3,<reponame> at offset 0,,
 a3256b38a3e5a8d1,full,fix,A2,"CR at end of 117 lines, first at offset 24",24 U+000D CARRIAGE RETURN (117x),tab indentation (not a disease)
@@ -121,7 +121,7 @@ c985a73238d11350,full,clean,,,,GitHub URL in code comment; not F1
 6cd059a46f2c882b,full,fix,B3,<reponame> at offset 0,,tab indentation (not a disease)
 e3961b6927e8feb5,full,fix,A2;B3,"CR at end of 45 lines, first at offset 82|<filename><gh_stars> at offset 0",82 U+000D CARRIAGE RETURN (45x),tab indentation (not a disease)
 fc6d66d5975e1a2a,full,clean,,,,tab indentation (not a disease)
-d5f14e8f4e7792ab,partial,fix,B3;B4;E4,"<reponame> at offset 0|<NAME> at offset 60 (1x)|licence header ""Copyright"" offset 32 to 1593 (22 lines)",,"viewer said TOO BIG TO DISPLAY; mechanical checks only, needs full read"
+d5f14e8f4e7792ab,full,fix,B3;B4;E4,"<reponame> at offset 0|<NAME> at offset 60 (1x)|licence header ""Copyright"" offset 32 to 1593 (26 lines)",,
 15d5d8f9e02835f9,full,fix,B3;B4,"<gh_stars> at offset 0|<NAME> at offset 117 (1x), <EMAIL> at offset 125 (1x)",,
 282fadc4865524af,full,fix,A2,"CR at end of 36 lines, first at offset 19",19 U+000D CARRIAGE RETURN (36x),
 eceba95fe2984f57,full,clean,,,,
@@ -132,7 +132,7 @@ df75c11ae4e76c49,full,fix,E4,"licence header ""Copyright"" offset 0 to 1059 (16 
 f7225bffdf7b7c7c,full,fix,B3;E4,"<reponame><filename> at offset 0|licence header ""Copyright"" offset 97 to 509 (6 lines)",,
 a3febf57b2b94bbd,full,clean,,,,
 6b489d51cb39b92f,full,clean,,,,
-9cc0ebdd60b83cd3,partial,fix,B3;E4,"<filename> at offset 0|licence header ""Copyright"" offset 73 to 845 (10 lines)",,"viewer said TOO BIG TO DISPLAY; mechanical checks only, needs full read"
+9cc0ebdd60b83cd3,full,fix,B3;E4,"<filename> at offset 0|licence header ""Copyright"" offset 73 to 845 (15 lines)",,
 17cd27765fca40ab,full,clean,,,,tab indentation (not a disease); problem link in comment (LeetCode); not F1; F2 question for lab
 d96db2546a71ce92,full,fix,B3,<reponame><filename><gh_stars> at offset 0,,
 b80b05637c2bddf0,full,fix,B3;B4,<filename> at offset 0|<NAME> at offset 93 (1x),,
@@ -167,7 +167,7 @@ f8bf040e24cbf360,full,fix,A2;B3,"CR at end of 96 lines, first at offset 48|<file
 059a887f62eb8ded,full,fix,B3;B4,<reponame><filename> at offset 0|<NAME> at offset 158 (1x),,tab indentation (not a disease)
 9e9ff1b421c98b7a,full,clean,,,,
 c3e89401b1d9c4de,full,fix,B4,<NAME> at offset 322 (1x),,
-ea5991abc7704e1f,partial,fix,B3;B4;E4,"<gh_stars> at offset 0|<NAME> at offset 150 (10x), <EMAIL> at offset 158 (10x)|licence header ""Copyright"" offset 15 to 1275 (23 lines)",,"viewer said TOO BIG TO DISPLAY; mechanical checks only, needs full read"
+ea5991abc7704e1f,full,fix,B3;B4;E4,"<gh_stars> at offset 0|<NAME> at offset 150 (10x), <EMAIL> at offset 158 (10x)|licence header ""Copyright"" offset 15 to 1275 (27 lines)",,
 3cfbd4e04e84951b,full,fix,B3;E4,"<gh_stars> at offset 0|licence header ""Copyright"" offset 17 to 182 (same text in 8 docs)",,
 f5ddae7ced5b0f2e,full,fix,B3;E4,"<gh_stars> at offset 0|licence header ""Copyright"" offset 15 to 1170 (16 lines)",,
 deccbc12f9921ae8,full,fix,B3;B4;E1;E4,"<filename> at offset 0|<NAME> at offset 372 (1x)|generated-file marker ""automatically generated"" at offset 162|licence header ""Copyright"" offset 78 to 584 (9 lines)",,
@@ -177,13 +177,13 @@ c51ceb1ecb21fd2c,full,clean,,,,problem link in comment (AtCoder); not F1; F2 que
 829740c04bd15506,full,fix,B4;E4,"<EMAIL> at offset 1927 (1x)|licence header ""License"" offset 0 to 1938 (27 lines)",,
 3e63d8292f7530ca,full,fix,B3;B4,<reponame> at offset 0|<NAME> at offset 337 (1x),,
 695036c91b2a809c,full,clean,,,,tab indentation (not a disease)
-1d8393ddf58ff2c9,partial,fix,E4,"licence header ""license"" offset 0 to 2085 (29 lines)",,"viewer said TOO BIG TO DISPLAY; mechanical checks only, needs full read"
+1d8393ddf58ff2c9,full,fix,E4,"licence header ""license"" offset 0 to 2085 (40 lines)",,
 32e0c355d9fd4854,full,fix,B3;E4,"<reponame><filename> at offset 0|licence header ""Copyright"" offset 97 to 696 (10 lines)",,
 2389566915b62780,full,clean,,,,
 748edb99fc8cced5,full,fix,B3;B4;E4,"<reponame> at offset 0|<NAME> at offset 1117 (1x)|licence header ""Copyright"" offset 34 to 1126 (19 lines)",,tab indentation (not a disease)
 a8302c40dd210139,full,fix,A2,"CR at end of 84 lines, first at offset 43",43 U+000D CARRIAGE RETURN (84x),
 7df5fec1c771f58c,full,fix,B3,<reponame> at offset 0,,
-ad188aa0bce853d2,partial,fix,A2;B3;B4;E4,"CR at end of 648 lines, first at offset 22|<filename> at offset 0|<NAME> at offset 120 (1x), <EMAIL> at offset 128 (1x)|licence header ""Copyright"" offset 19 to 875 (13 lines)",22 U+000D CARRIAGE RETURN (648x),"viewer said TOO BIG TO DISPLAY; mechanical checks only, needs full read"
+ad188aa0bce853d2,full,fix,A2;B3;B4;E4,"CR at end of 648 lines, first at offset 22|<filename> at offset 0|<NAME> at offset 120 (1x), <EMAIL> at offset 128 (1x)|licence header ""Copyright"" offset 19 to 875 (18 lines)",22 U+000D CARRIAGE RETURN (648x),
 0b57e17f580736ef,full,clean,,,,
 ffccd19508758d44,full,fix,E4,"licence header ""Copyright"" offset 0 to 609 (10 lines)",,
 4a75560e5946f4d1,full,fix,B3;B4;E4,"<gh_stars> at offset 0|<NAME> at offset 1120 (1x)|licence header ""Copyright"" offset 15 to 1153 (19 lines)",,
@@ -199,22 +199,22 @@ b531816394b4a813,full,fix,A2;B3;E4,"CR at end of 35 lines, first at offset 936|<
 a83ebe0b12784f0f,full,clean,,,,
 b8be5e7f8cbe5813,full,clean,,,,tab indentation (not a disease)
 14668e6a71171ef5,full,fix,A2;B3,"CR at end of 68 lines, first at offset 102|<filename> at offset 0",102 U+000D CARRIAGE RETURN (68x),
-153b3666d042e6ea,partial,fix,B3,<filename> at offset 0,,"Different laguage, not much code, only starter template; comments in another language; starter template (his SKIP); no label in your sheet; mechanical scan only, needs your read"
+153b3666d042e6ea,full,drop,B3,<filename> at offset 0,,"Chinese comments; minimal script entry point registering callbacks; dropped by reviewer for limited relevance, not because of comment language"
 58d37cd87f5e314a,full,clean,,,,
-f78dbe0768eb6699,partial,fix,B3;B4,"<reponame> at offset 0|<NAME> at offset 62 (1x), <EMAIL> at offset 71 (1x)",,"viewer said TOO BIG TO DISPLAY; mechanical checks only, needs full read"
+f78dbe0768eb6699,full,fix,B3;B4,"<reponame> at offset 0|<NAME> at offset 62 (1x), <EMAIL> at offset 71 (1x)",,
 679a9990f72a89cc,full,fix,B3,<gh_stars> at offset 0,,tab indentation (not a disease)
 7be69bd5d004408f,full,clean,,,,tab indentation (not a disease)
-152889ce5fd878b9,partial,fix,B4,<EMAIL> at offset 50 (1x),,"Not much code; tiny file, Arma-style config rather than C++; E6 question for lab; no label in your sheet; mechanical scan only, needs your read"
+152889ce5fd878b9,full,drop,B4,<EMAIL> at offset 50 (1x),,"Minimal Arma-style radio configuration; documentation URLs on zero-based lines 1 and 2 are not diseases; dropped by reviewer for limited relevance; E6 classification not confirmed"
 e18b1223d66940ce,full,clean,,,,
 775ccfbf52e22026,full,fix,B4,<NAME> at offset 50 (1x),,
 8cfc74f7b5532034,full,fix,A1;E4,"BOM at offset 0|licence header ""Copyright"" offset 1 to 118 (same text in 3 docs)",0 U+FEFF ZERO WIDTH NO-BREAK SPACE,
 4ada131976eaebea,full,fix,E4,"licence header ""Copyright"" offset 0 to 588 (10 lines)",,
-48f23de7d6d4fd41,partial,fix,E4,"licence header ""Copyright"" offset 0 to 169 (same text in 3 docs)",,"viewer said TOO BIG TO DISPLAY; mechanical checks only, needs full read"
+48f23de7d6d4fd41,full,fix,E4,"licence header ""Copyright"" offset 0 to 168 (3 lines)",,
 7503e40a0277e7df,full,fix,B3,<gh_stars> at offset 0,,
 7878b4fa5e2f0811,full,fix,B3,<filename> at offset 0,,
-13060c08760adb5a,partial,,,,,"no label in your sheet; mechanical scan only, needs your read"
+13060c08760adb5a,full,clean,,,,"GeeksForGeeks problem URL at offset 3; problem statement at offset 138 and solution class at offset 939; F2 requires confirmed benchmark membership; verdict pending"
 da4592dd28fe7f8d,full,fix,A2,"CR at end of 191 lines, first at offset 12",12 U+000D CARRIAGE RETURN (191x),tab indentation (not a disease)
-30226f42da211d8e,partial,fix,B3,<filename> at offset 0,,"viewer said TOO BIG TO DISPLAY; mechanical checks only, needs full read"
+30226f42da211d8e,full,fix,B3,<filename> at offset 0,,
 cfa11c48509b2d26,full,fix,A2,"CR at end of 147 lines, first at offset 21",21 U+000D CARRIAGE RETURN (147x),tab indentation (not a disease)
 36a54b4cefa11abc,full,fix,B3,<reponame><gh_stars> at offset 0,,
 cd194ab77392daec,full,fix,B3;E4,"<reponame> at offset 0|licence header ""Copyright"" offset 31 to 790 (10 lines)",,
@@ -225,7 +225,7 @@ d8aada17fc38e204,full,clean,,,,
 c612be8083540113,full,fix,B3,<filename> at offset 0,,
 e8f8d0c01a035a3c,full,fix,B4;E4,"<NAME> at offset 45 (1x)|licence header ""Copyright"" offset 0 to 726 (11 lines)",,
 7bb551b6b8bb297c,full,fix,B3;E4,"<filename> at offset 0|licence header ""Copyright"" offset 103 to 701 (10 lines)",,
-6fc1f49ed70ab488,partial,,,,,"viewer said TOO BIG TO DISPLAY; mechanical checks only, needs full read"
+6fc1f49ed70ab488,full,clean,,,,
 737965d79cc94955,full,fix,A2;E1,"CR at end of 162 lines, first at offset 38|generated-file marker ""autogenerated"" at offset 3",38 U+000D CARRIAGE RETURN (162x),
 45f63edd1150add4,full,fix,B4;E4,"<NAME> at offset 24 (1x)|licence header ""copyright"" offset 0 to 318 (8 lines)",,
 bb410d12aac3d634,full,fix,A1;B3;E4,"BOM at offset 37|<reponame> at offset 0|licence header ""Copyright"" offset 38 to 2238 (11 lines)",37 U+FEFF ZERO WIDTH NO-BREAK SPACE,"BOM is the file's own, after the prefix line; not joined files"
@@ -248,17 +248,17 @@ a6bbe55dc88d1ee2,full,fix,A2,"CR at end of 101 lines, first at offset 17",17 U+0
 f332cc350f4732bc,full,clean,,,,
 46df75fa2902ef41,full,fix,B3;B4;E4,"<filename> at offset 0|<NAME> at offset 2087 (2x)|licence header ""Copyright"" offset 62 to 2195 (26 lines)",,tab indentation (not a disease)
 08c29afd8ef74e28,full,fix,B3,<reponame> at offset 0,,
-42e2e39751f9db99,partial,,,,,file too long
+42e2e39751f9db99,full,fix,B3,<gh_stars> at offset 0,,
 47c17eb1aa937e13,full,fix,B4;E4,"<NAME> at offset 96 (1x)|licence header ""Copyright"" offset 2 to 1178 (17 lines)",,
-041f5e516d617ffa,full,,,,,clean
+041f5e516d617ffa,full,clean,,,,clean
 5e5048f097a548ad,full,fix,B4;E4,"<EMAIL> at offset 83 (1x)|licence header ""Copyright"" offset 0 to 838 (15 lines)",,
 fb3dec3c8d3686cd,full,fix,B3,<reponame> at offset 0,,file too long
 5fadf1ed321b49b7,full,fix,B3,<filename><gh_stars> at offset 0,,
 202b00b4c9cd4ce6,full,fix,A2;B3,"CR at end of 225 lines, first at offset 37|<gh_stars> at offset 0",37 U+000D CARRIAGE RETURN (225x),
-5883d3b44326b1a0,full,,,,,clean
+5883d3b44326b1a0,full,clean,,,,clean
 23825ace0f18828e,full,fix,E4,"licence header ""Copyright"" offset 0 to 654 (11 lines)",,
 b10afce73ef61a1e,full,fix,A2;E4,"CR at end of 68 lines, first at offset 880|licence header ""Copyright"" offset 0 to 626 (10 lines)",880 U+000D CARRIAGE RETURN (68x),
-3f14523606cd49cb,full,,,,,clean
+3f14523606cd49cb,full,clean,,,,clean
 f6427e5a32b4e083,full,fix,B3;E4,<reponame> at offset 0 | licence header,,
 b94e727329ee42f5,full,fix,A2;B3;B4;E4,"CR at end of 658 lines, first at offset 90|<gh_stars> at offset 0|<NAME> at offset 1194 (11x)|licence header ""Copyright"" offset 12 to 1588 (22 lines)",90 U+000D CARRIAGE RETURN (658x),
 fa672dc1e583a266,full,fix,E4,"licence header ""Copyright"" offset 0 to 458 (6 lines)",,
@@ -268,52 +268,52 @@ dd394715933bcf40,full,fix,B3;B4;E4,"<gh_stars> at offset 0|<NAME> at offset 182 
 6d6bdc9bad267ff0,full,fix,B3;B4,"<gh_stars> at offset 0|<NAME> at offset 103 (2x), <EMAIL> at offset 113 (2x)",,
 58e6ab70b5ba8232,full,fix,B3,<filename> at offset 0,,
 589dbb432e51f974,full,fix,B3;E4,"<filename> at offset 0|licence header ""Copyright"" offset 78 to 680 (10 lines)",,
-38078bcf961b121f,full,,,,,clean
-151ffe1d22cfa618,full,,,,,clean
+38078bcf961b121f,full,clean,,,,clean
+151ffe1d22cfa618,full,clean,,,,clean
 8802cc37af399500,full,fix,B3;E4,"<gh_stars> at offset 0 | licence header ""Copyright""",,
 4991b5389c214ce1,full,fix,B3;E4,"<reponame> at offset 0|licence header ""Copyright"" offset 35 to 1157 (16 lines)",,
 214b771de8915768,full,fix,B3;B4,<gh_stars> at offset 0|<NAME> at offset 109 (1x),,
 df8744e7db06ac85,full,fix,B3,<gh_stars> at offset 0,,
-3a5913c83791adc0,partial,,E4,"Apache License 2.0 header at offset 150 (marker appears in 40 pack documents)",,file too long
-b3ee219330f6a630,full,,B4,<NAME> at offset 14 (1x),,
-37fe0170f01eb265,full,,A2;B3,"CR at end of 182 lines, first at offset 111|<reponame><gh_stars> at offset 0",111 U+000D CARRIAGE RETURN (182x),
-71ef84d00c7e77ec,full,,,,,clean code
-178a68faeabdd1f6,full,,A2;B3,"CR at end of 84 lines, first at offset 68|<reponame><filename> at offset 0",68 U+000D CARRIAGE RETURN (84x),
-9c1d218d257a6176,full,,E1,"generated-file marker ""been generated by"" at offset 17",,
-18636adcefad793c,full,,B3;E4,"<filename> at offset 0 | licence header ""Copyright""",,
-2809f15e2b4ce238,full,,E4,"licence header ""Copyright"" offset 0 to 587 (10 lines)",,
-82555e94cbabe296,full,,,,,clean
-af13fcb58052f59c,full,,,,,clean
-47e36c7820019705,full,,E4,"licence header ""License"" offset 0 to 1807 (24 lines)",,
-5d5a05dbbfe98c1b,full,,B3;E4,"<reponame> at offset 0|licence header ""Copyright"" offset 28 to 672 (11 lines)",,
-4f0245a444d3f983,full,,E4,"licence header ""Copyright"" offset 0 to 1146 (16 lines)",,
-bca16f9582d8033f,full,,B3;E4,"<filename> at offset 0 | ""Copyright"" at offset 47",,
+3a5913c83791adc0,full,fix,B3;B4;E4,"<filename> at offset 0|<NAME> at offset 95 (1x)|licence header ""Copyright"" offset 67 to 801 (21 lines)",,
+b3ee219330f6a630,full,fix,B4,<NAME> at offset 14 (1x),,
+37fe0170f01eb265,full,fix,A2;B3,"CR at end of 182 lines, first at offset 111|<reponame><gh_stars> at offset 0",111 U+000D CARRIAGE RETURN (182x),
+71ef84d00c7e77ec,full,clean,,,,clean code
+178a68faeabdd1f6,full,fix,A2;B3,"CR at end of 84 lines, first at offset 68|<reponame><filename> at offset 0",68 U+000D CARRIAGE RETURN (84x),
+9c1d218d257a6176,full,fix,E1,"generated-file marker ""been generated by"" at offset 17",,
+18636adcefad793c,full,fix,B3;E4,"<filename> at offset 0 | licence header ""Copyright""",,
+2809f15e2b4ce238,full,fix,E4,"licence header ""Copyright"" offset 0 to 587 (10 lines)",,
+82555e94cbabe296,full,clean,,,,clean
+af13fcb58052f59c,full,clean,,,,clean
+47e36c7820019705,full,fix,E4,"licence header ""License"" offset 0 to 1807 (24 lines)",,
+5d5a05dbbfe98c1b,full,fix,B3;E4,"<reponame> at offset 0|licence header ""Copyright"" offset 28 to 672 (11 lines)",,
+4f0245a444d3f983,full,fix,E4,"licence header ""Copyright"" offset 0 to 1146 (16 lines)",,
+bca16f9582d8033f,full,fix,B3;E4,"<filename> at offset 0 | ""Copyright"" at offset 47",,
 588170fad9bed546,full,fix,B4;E4,"<NAME> at offset 23 (1x) | licence header ""Copyright""",,
 5709b7298e685b28,full,fix,B3;B4;E4,"<reponame> at offset 0|<NAME> at offset 137 (1x), <EMAIL> at offset 146 (1x)|licence header ""Copyright"" offset 36 to 1115 (16 lines)",,
 e8b6c371824ca31a,full,fix,B4,<NAME> at offset 118 (1x),,
 ffbb83c50777e42a,full,fix,B3,<filename> at offset 0,,
-b6577a773d38001f,partial,,E4,"MIT license grant at offset 74 (marker appears in 19 pack documents)",,file too long
-c7ff463a27ccfca7,full,,B4,"<AUTHOR>, <EMAIL>, <YEAR> at offset 61 ",,
+b6577a773d38001f,full,fix,B4;E4,"<NAME> at offset 30 (1x)|licence header ""Copyright"" offset 0 to 1149 (21 lines)",,
+c7ff463a27ccfca7,full,fix,B4,"<AUTHOR>, <EMAIL>, <YEAR> at offset 61 ",,
 eddcb0b46c33fe4f,full,fix,B3,<reponame> at offset 0,,
 6dd85bcc4d316d0e,full,fix,E4,"licence header ""LICENSE"" offset 0 to 2041 (25 lines)",,
-20f9fe48b606c301,full,,E4,licence header,,
+20f9fe48b606c301,full,fix,E4,licence header,,
 3c67c435782c8a77,full,fix,B4;E1,"<NAME> at offset 151 (1x)|generated-file marker ""machine generated"" at offset 301",,
 edf599d22919e383,full,fix,E4,"licence header ""Copyright"" offset 0 to 601 (7 lines)",,
 109d48f57ba9b72f,full,fix,B3,<reponame><filename> at offset 0,115 U+000D CARRIAGE RETURN (24x),
 15ced4eb459a43ec,full,fix,E4,"licence header ""Copyright"" offset 0 to 925 (11 lines)",,
-1dfc148985b7a5e3,full,,,,,clean code
+1dfc148985b7a5e3,full,clean,,,,clean code
 0b6a2820ec328a6b,full,fix,B3,<reponame> at offset 0,,
 ff1a95adc6847f17,full,fix,B3;B4;E4,"<filename><gh_stars> at offset 0|<NAME> at offset 114 (1x) | licence header ""Copyright"" offset 0",,
-30d7e10dfee4808f,full,,,,,clean
+30d7e10dfee4808f,full,clean,,,,clean
 b19808741094a63e,full,fix,B3,<reponame> at offset 0,,
 b085d29fa49f547d,full,fix,B3,<gh_stars> at offset 0,,
 3b878e5e8ae018b6,full,fix,B3,<filename><gh_stars> at offset 0,,
-a250f0f8a35eddc5,full,,,,,clean
+a250f0f8a35eddc5,full,clean,,,,clean
 ae31c83f7e1e3646,full,fix,B4;E4,"<NAME> at offset 762 (1x), <EMAIL> at offset 770 (1x) | licence header ""Copyright"" offset 0",,
 2ab6a8e6f8df8803,full,fix,B3;B4;E4,"<gh_stars> at offset 0|<NAME> at offset 92 (1x) | licence header ""Copyright"" offset 0",,
 6a00933f05512d6d,full,fix,B3;E4,"<filename> at offset 0|licence header ""Copyright"" offset 75 to 834 (10 lines)",,
 bbb6135d5740caa5,full,fix,E4,"licence header ""Copyright"" offset 0 to 165 (same text in 8 docs)",,
-d26353232e8ff92e,full,,,,,clean
+d26353232e8ff92e,full,clean,,,,clean
 3cb690ce67959502,full,fix,B3;B4;E4,"<reponame><filename> at offset 0|<EMAIL> at offset 176 (1x)|licence header ""Copyright"" offset 93 to 937 (15 lines)",,
 dbc1b525c4e23dd9,full,fix,B4;E4,"<NAME> at offset 31 (1x) | licence header ""Copyright""",,
 87c6725fa62e3c8a,full,fix,A2;E4,"CR at end of 164 lines, first at offset 36|licence header ""Copyright"" offset 0 to 1134 (16 lines)",36 U+000D CARRIAGE RETURN (164x),
@@ -321,62 +321,62 @@ dbc1b525c4e23dd9,full,fix,B4;E4,"<NAME> at offset 31 (1x) | licence header ""Cop
 83b3083721ee5df9,full,fix,A2;E1,"CR at end of 158 lines, first at offset 38|generated-file marker ""autogenerated"" at offset 3",38 U+000D CARRIAGE RETURN (158x),
 5ed0b23aa986763b,full,fix,A1;B3,BOM at offset 92|<reponame><filename><gh_stars> at offset 0,92 U+FEFF ZERO WIDTH NO-BREAK SPACE,
 6c17b7cfda116cda,full,fix,B3,<filename> at offset 0,,
-52e097a01be4191c,full,,,,,clean
+52e097a01be4191c,full,clean,,,,clean
 e6d441a6f7b958d1,full,fix,B4;E4,"<NAME> at offset 85 (2x)|licence header ""Copyright"" offset 0 to 1686 (25 lines)",,
 6ceda3f58ae6dc09,full,fix,B3,<gh_stars> at offset 0,,
 3a7b6010b202f94d,full,fix,B3;E4,"<filename> at offset 0 | licence header ""Copyright"" ",,
-555fec09bde9d0f5,full,,,,,clean
+555fec09bde9d0f5,full,clean,,,,clean
 3cf0ed3d99de77ff,full,fix,B3,<filename><gh_stars> at offset 0,,
-06d6826f2cc07fac,full,,,,,clean
+06d6826f2cc07fac,full,clean,,,,clean
 e823152e6e26777e,full,fix,B3;B4;E4,"<filename> at offset 0|<NAME> at offset 179 (1x), <EMAIL> at offset 187 (1x)|licence header ""Copyright"" offset 50 to 758 (12 lines)",,
 f9f38e8e4ca8832c,full,fix,B4;E4,"<NAME> at offset 95 (2x), <EMAIL> at offset 138 (1x)|licence header ""Copyright"" offset 0 to 528 (7 lines)",,
-d4e0ba09a19e765f,full,partial,E4,"BSD-style license terms at offset 91 (marker appears in 18 pack documents)",,file too long
+d4e0ba09a19e765f,full,fix,E4,"licence header ""Copyright"" offset 0 to 1503 (29 lines)",,
 f1422a9cb75a9367,full,fix,B3,<filename> at offset 0,,
 ba4f725f6131d29d,full,fix,B3,<reponame> at offset 0,,
-03c0c534163b856b,full,,,,,clean
-644b1b19f2dc8a4b,full,,,,,clean
+03c0c534163b856b,full,clean,,,,clean
+644b1b19f2dc8a4b,full,clean,,,,clean
 dc150a257164d305,full,fix,B3,<reponame> at offset 0,,
 7163d7bbdc5668d5,full,fix,E4,"licence header ""Copyright"" offset 0 to 165 (same text in 8 docs)",,
-17864ea68c9eb7f3,full,,,,,clean
+17864ea68c9eb7f3,full,clean,,,,clean
 51b0942329e57c9b,full,fix,B3,<reponame><filename> at offset 0,,
 93961c810965ab2e,full,fix,A1;B4;E4,"BOM at offset 0|<NAME> at offset 27 (1x) | licence header ""Copyright""",0 U+FEFF ZERO WIDTH NO-BREAK SPACE,
 c993417c7274c5d5,full,fix,B3;B4,<reponame> at offset 0|<NAME> at offset 59 (4x),,
 d8ed14691f7c3eef,full,fix,E4,"licence header ""Copyright"" offset 0 to 1131 (16 lines)",,
 f08b90e4f8fac01d,full,fix,B3,<reponame> at offset 0,59 U+000D CARRIAGE RETURN (203x),
 c7dde9803a7880fd,full,fix,B3,<filename> at offset 0,,clean
-6f6b9f632912746b,full,,,,,clean
-4476c76c84289552,full,,,,,clean
-a6fe6dc6d93d5caf,full,,,,,clean
-1afb699d99a568ae,partial,,,,,file too long
+6f6b9f632912746b,full,clean,,,,clean
+4476c76c84289552,full,clean,,,,clean
+a6fe6dc6d93d5caf,full,clean,,,,clean
+1afb699d99a568ae,full,clean,,,,Chinese comments; no disease identified in manual review
 a90b9fb3e5d4ad54,full,fix,B3,<reponame><filename> at offset 0,,
 52670605d3c00558,full,fix,B3,<filename> at offset 0,,
-be30636c79d2f99b,full,,,,,clean
-9f7a5e624fb5e85e,full,,,,,
+be30636c79d2f99b,full,clean,,,,clean
+9f7a5e624fb5e85e,full,clean,,,,
 8ebde11c45ef69ad,full,fix,B3;B4;E4,"<filename><gh_stars> at offset 0|<NAME> at offset 193 (5x) | licence ""Copyright""",,
 48ccd951560a1384,full,fix,B3;E4,"<reponame><gh_stars> at offset 0|licence header ""Copyright"" offset 38 to 203 (same text in 8 docs)",,
 1a4254d814fbcaf8,full,fix,B3,<filename> at offset 0,,
 4c345dab225a593e,full,fix,B3,<filename> at offset 0,,
 38b1481caa1e8328,full,fix,B4,<NAME> at offset 36 (1x),,
-63d4a801d5382389,full,,,,,clean
+63d4a801d5382389,full,clean,,,,clean
 5fb8c4ae6465d7d2,full,fix,B3;B4,<filename> at offset 0|<NAME> at offset 73 (1x),,
 68d0baa5a64ac994,full,fix,B3;B4,<filename> at offset 0|<NAME> at offset 252 (1x),,
 a6cf8c7170ad0723,full,fix,B4;E4,"<NAME> at offset 33 (1x)|licence header ""copyright"" offset 0 to 125 (6 lines)",,
 49dba88b65cdd346,full,fix,A2;B3;B4;E4,"CR at end of 253 lines, first at offset 26|<reponame> at offset 0|<NAME> at offset 54 (1x)|licence header ""Copyright"" offset 24 to 932 (14 lines)",26 U+000D CARRIAGE RETURN (253x),
-b0f3d6add6e772d4,full,,,,,clean
+b0f3d6add6e772d4,full,clean,,,,clean
 4ecb8544f4d74d13,full,fix,B4;E4,"<NAME> at offset 22 (2x) | licence header ""Copyright""",,
 8b3f0e3d61114c7a,full,fix,B4;E4,"<NAME> at offset 62 (1x) | licence header ""Copyright""",,
 e26d5186f3ced36e,full,fix,B4;E4,"<NAME> at offset 163 (1x) | licence header ""Copyright""",,
-15407938c20faa3d,full,,,,,clean
+15407938c20faa3d,full,clean,,,,clean
 fe1d528d268725ef,full,fix,E4,"licence header ""Copyright"" offset 0",,
 e55ddd126191e9b7,full,fix,B3,<gh_stars> at offset 0,,
 1deccc3b037ecda8,full,fix,B3,<filename> at offset 0,,
-060db80c38cf1686,full,,,,,clean
-92e2288f511a3df2,full,,,,,clean
+060db80c38cf1686,full,clean,,,,clean
+92e2288f511a3df2,full,clean,,,,clean
 e722028b8e79de04,full,fix,B3;B4;E4,"<filename> at offset 0|<NAME> at offset 102 (1x) | licence header ""Copyright""",,
-6327973b195b0c36,full,,,,,clean
+6327973b195b0c36,full,clean,,,,clean
 9bd9034f3cf002c7,full,fix,A2;B3,"CR at end of 22 lines, first at offset 64|<reponame><gh_stars> at offset 0",64 U+000D CARRIAGE RETURN (22x),
 d5e4edc6e5fe8ee3,full,fix,B3;E4,"<reponame> at offset 0|licence header ""Copyright"" offset 27 to 648 (10 lines)",,
-b9b336f180070778,full,,,,,clean
+b9b336f180070778,full,clean,,,,clean
 05bf0d646d4e6dcc,full,fix,E4,"licence header ""Copyright"" offset 0 to 583 (10 lines)",,
 706b835c6631760c,full,fix,B3,<reponame> at offset 0,,
 6cc419b3bdd7ed68,full,fix,B4,<NAME> at offset 6 (1x),,
@@ -384,48 +384,48 @@ b9b336f180070778,full,,,,,clean
 fc79ed0be2d761ae,full,fix,B4;E4,"<NAME> at offset 22 (1x)|licence header ""Copyright"" offset 0 to 1672 (23 lines)",,
 8aef2715ca72ab75,full,fix,A2;B3,"CR at end of 324 lines, first at offset 62|<filename> at offset 0",62 U+000D CARRIAGE RETURN (324x),
 60e6268af35d5c20,full,fix,A2,"CR at end of 28 lines, first at offset 19",19 U+000D CARRIAGE RETURN (28x),
-96ebc0289d2fe701,full,,,,,clean
-9648f539546fd1c0,full,,,,,clean
+96ebc0289d2fe701,full,clean,,,,clean
+9648f539546fd1c0,full,clean,,,,clean
 1944d1dea5327087,full,fix,B3;B4;E4,<reponame> at offset 0|<NAME> at offset 172 (1x) | licence header,,
 af54ccc7eff4f3c4,full,fix,B3;E4,<reponame> at offset 0 | License header,,
 7449ca9e059b755b,full,fix,B3;B4;E4,"<reponame> at offset 0|<NAME> at offset 134 (1x) | licence header ""Copyright""",,
 7b5f398d32d93b19,full,fix,A2;B3;B4,"CR at end of 313 lines, first at offset 61|<gh_stars> at offset 0|<NAME> at offset 33 (1x)",61 U+000D CARRIAGE RETURN (313x),
-bff33641799f20aa,full,,,,,clean
-66a33cebee0275d8,full,,,,,clean
+bff33641799f20aa,full,clean,,,,clean
+66a33cebee0275d8,full,clean,,,,clean
 b7c27997a968bc34,full,fix,A2;B3;B4,"CR at end of 21 lines, first at offset 50|<gh_stars> at offset 0|<NAME> at offset 37 (1x)",50 U+000D CARRIAGE RETURN (21x),
 58d98058a940ee08,full,fix,B3;E4,"<gh_stars> at offset 0|licence header ""Copyright"" offset 15 to 763 (12 lines)",,
 b9f37bf79ba33e3f,full,fix,B3,<reponame> at offset 0,,
 ad9bad8cf972a5ea,full,fix,B3;B4;E4,"<gh_stars> at offset 0|<NAME> at offset 108 (1x)|licence header ""Copyright"" offset 17 to 674 (12 lines)",,
-7cdb6be4cebf4c13,full,,,,,clean
-72f596e66d36cfc4,partial,fix,B3;B4,<reponame> at offset 0|<NAME> at offset 41 (1x),,
+7cdb6be4cebf4c13,full,clean,,,,clean
+72f596e66d36cfc4,full,fix,B3;B4,<reponame> at offset 0|<NAME> at offset 41 (1x),,
 a0dfbded3b1f16bb,full,fix,B3,<gh_stars> at offset 0,,
-48bc27c30498daf9,full,,,,,clean code
+48bc27c30498daf9,full,clean,,,,clean code
 8b23faa736d88ac9,full,fix,B4;E2,<NAME> at offset 633 | numeric array of 3188 characters at offset 1408,,
 764af3dc577c2ff2,full,fix,B3,<filename> at offset 0,,
-e2ff494f49d17f4c,full,,,,,clean code
+e2ff494f49d17f4c,full,clean,,,,clean code
 cbac9cb9fb6765bb,full,fix,B3,<filename> at offset 0,,
 40fa7b39a10d6b56,full,fix,B3,<reponame> at offset 0,,
 e865094a2991bb38,full,fix,B3,<gh_stars> at offset 0,,
 119d5d5b7611154b,full,fix,B4;E4,<NAME> at offset 45 | License BSD-3 Clause at Offset 0,,
-a26e8b35d7ce22cc,partial,,E4,"Apache License 2.0 header at offset 270 (marker appears in 40 pack documents)",,file too big
-d13c02419ff98cfa,partial,,,,,file too big
+a26e8b35d7ce22cc,full,fix,E4,"licence header ""Copyright"" offset 0 to 825 (18 lines)",,
+d13c02419ff98cfa,full,clean,,,,
 80ed6ca4435c91ac,full,fix,A2;B3;B4,"CR at end of 28 lines, first at offset 107|<reponame> at offset 0|<NAME> at offset 148 (1x)",107 U+000D CARRIAGE RETURN (28x),
 9bff1138b8100612,full,fix,B3,<filename><gh_stars> at offset 0,,
 a33d5495094faa78,full,fix,B3;E4,"<gh_stars> at offset 0|licence header ""LLVM License"" offset 16 to 560 (6 lines)",,
 3b319251f9006b70,full,fix,B4,<NAME> at offset 1073,,
-3f5d5c72f1e79b1e,full,,,,,clean code
-88fc2b9ef398a6d1,full,,,,,clean code
-e1f20536bbeb85c5,full,,,,,clean code
+3f5d5c72f1e79b1e,full,clean,,,,clean code
+88fc2b9ef398a6d1,full,clean,,,,clean code
+e1f20536bbeb85c5,full,clean,,,,clean code
 0240c148aeaa1412,full,fix,B3,<reponame> at offset 0,,
 23e3dd46e104c637,full,fix,B3;E4,<gh_stars> at offset 0 | Copyright license Apache,,
-d839894017461dda,full,,,,,clean
+d839894017461dda,full,clean,,,,clean
 d3eefc4d9e8bb7e4,full,fix,B3,<gh_stars> at offset 0,,
 351e71825b68b5e5,full,fix,A1;B3;E4,"BOM at offset 15|<gh_stars> at offset 0|licence header ""Copyright"" offset 16 to 133 (same text in 3 docs)",15 U+FEFF ZERO WIDTH NO-BREAK SPACE,
 9fe5d2d7899f216d,full,fix,B3;E4,"<reponame> at offset 0|licence header ""Copyright"" offset 36 to 210 ",,
 273e2f4e3f8657ea,full,fix,B3,<gh_stars> at offset 0,,
 3aa039955ff68520,full,fix,B3;B4,<filename> at offset 0|<NAME> at offset 86 ,,
 4a2a4b61b11588cb,full,fix,B3;E4,"<filename> at offset 0|licence header ""Apache Copyright"" offset 52 to 699 (10 lines)",,
-6d365810e7af6785,full,,,,,clean
+6d365810e7af6785,full,clean,,,,clean
 8b7516cdbce3b377,full,fix,B3,<gh_stars> at offset 0,,
 8cf8ed7f7acc8052,full,fix,E4,"licence header ""Copyright"" offset 0 to 615 (10 lines)",,
 a25ce84ca22bdda4,full,fix,B3,<reponame> at offset 0,,
@@ -433,34 +433,34 @@ a25ce84ca22bdda4,full,fix,B3,<reponame> at offset 0,,
 e5eb53da840f9b79,full,fix,B3,<filename> at offset 0,,
 8332962cf04b5a59,full,fix,B4;E4,"<NAME> at offset 1320 (1x)|licence header ""MIT License"" offset 0 to 1208 (18 lines)",,
 e1a1b8fd16add524,full,fix,B3,<reponame><gh_stars> at offset 0,,
-32d0d4ec980c8dfd,full,,,,,clean code
-e72245afc4e9921f,full,,,,,clean code
+32d0d4ec980c8dfd,full,clean,,,,clean code
+e72245afc4e9921f,full,clean,,,,clean code
 512feac4bee5a2de,full,fix,A2;B3,"CR at end of 202 lines, first at offset 116|<reponame><filename> at offset 0",116 U+000D CARRIAGE RETURN (202x),
 6d56424eb1f2b44c,full,fix,B3,<filename> at offset 0,,
-1432746bf9765f7a,full,,,,,clean
-12a00e1dd01fe175,full,,,,,clean
-8.72E+15,full,,,,,clean
+1432746bf9765f7a,full,clean,,,,clean
+12a00e1dd01fe175,full,clean,,,,clean
+8.72E+15,full,clean,,,,clean
 ad8f39d5bab3f52a,full,fix,B4,<NAME> at offset 26 ,,
-30723a13660905c2,full,,,,,clean
+30723a13660905c2,full,clean,,,,clean
 e206865052de8729,full,fix,B3,<reponame> at offset 0,,
 baf14d53be4f09d8,full,fix,B4,<NAME> at offset 39,,
 587891f944dfcedc,full,fix,B3,<filename> at offset 0,,
 27b35edb6de466b0,full,fix,E4,"licence header ""Copyright"" offset 0 to 165",,
 8445db5cb40f282d,full,fix,B3,<reponame> at offset 0,,
-c2cc6828aa401e7d,full,,,,,clean
-31fc2f3a6e86b753,full,fix,A1;B3,BOM at offset 42|<filename> at offset 0,42 U+FEFF ZERO WIDTH NO-BREAK SPACE,"BOM is the file's own, after the prefix line; not joined files; no label in your sheet; mechanical scan only, needs your read"
+c2cc6828aa401e7d,full,clean,,,,clean
+31fc2f3a6e86b753,full,fix,A1;B3,BOM at offset 42|<filename> at offset 0,42 U+FEFF ZERO WIDTH NO-BREAK SPACE,"BOM at character offset 42 on zero-based line 1 belongs to the source after the metadata prefix; not joined files"
 4707ff8ae2e79609,full,fix,B4;E4,"<NAME> at offset 416 (1x)|licence header ""license"" offset 0 to 426 (6 lines)",,
 8dbca2d2a4b986b6,full,fix,B4;E4,"<NAME> at offset 35 (1x)|licence header ""MIT License"" offset 0 to 1068 (17 lines)",,
 5ac8bccb596b3c88,full,fix,B3,<reponame> at offset 0,,
 5219d8ea8a9f8ab1,full,fix,E4,"licence header ""Copyright"" offset 0 to 164",,
-e784b631b0cff967,full,,,,,clean
-c7d5eb2d12e9442d,full,,,,,clean
+e784b631b0cff967,full,clean,,,,clean
+c7d5eb2d12e9442d,full,clean,,,,clean
 06156afba739c032,full,fix,B3;B4,<reponame><filename> at offset 0|<NAME> at offset 203 (3x),,
 736ffee07a317d21,full,fix,B4,<NAME> at offset 3 (1x),,
-2.10E+15,full,,,,,clean
+2.10E+15,full,clean,,,,clean
 752b8f7e3bbb441c,full,fix,B3,<reponame> at offset 0,,
 867aec1994fd3a1b,full,fix,B3,<filename><gh_stars> at offset 0,,
-a17f77ac513d54c6,full,,,,,clean
+a17f77ac513d54c6,full,clean,,,,clean
 308d8f39cb6970b6,full,fix,B3;B4;E4,"<reponame> at offset 0|<NAME> at offset 143 (1x)|licence header ""Copyright"" offset 32 to 1524 (14 lines)",,
 dcf2ec1b1beb6274,full,fix,B3;E4,"<gh_stars> at offset 0|licence header ""Copyright"" offset 15 to 592 (10 lines)",,
 4a6d28bad9c9f173,full,fix,B3,<filename><gh_stars> at offset 0,,
@@ -468,11 +468,11 @@ e03eea671a3a6bfb,full,fix,B4;E4,"<NAME> at offset 64 (1x), <EMAIL> at offset 72 
 20cd6ff5e8193024,full,fix,A2;B4;E4,"CR at end of 296 lines, first at offset 4|<NAME> at offset 231 (2x)|licence header ""Copyright"" offset 0 to 334 (10 lines)",4 U+000D CARRIAGE RETURN (296x),
 1826f28bd6b086bf,full,fix,B3;B4;E4,"<gh_stars> at offset 0|<NAME> at offset 69 (3x)|licence header ""Copyright"" offset 15 to 608 (10 lines)",,
 310928050333ca46,full,fix,B3,<filename> at offset 0,,
-97be482437f4094d,full,,,,,clean
+97be482437f4094d,full,clean,,,,clean
 9989c2be8ee75846,full,fix,E4,"licence header ""Copyright"" offset 0 to 1608 (22 lines)",,
 1768b5f91561649b,full,fix,B3,<reponame><filename> at offset 0,,
-24e3b5b06b730a3d,full,,,,,clean
-84660c6345b7109f,full,,,,,clean
+24e3b5b06b730a3d,full,clean,,,,clean
+84660c6345b7109f,full,clean,,,,clean
 8d1a6d210983607d,full,fix,B3,<filename> at offset 0,,
 f811cd13e4c952c0,full,fix,B4;E4,<NAME> at offset 77 | Copyright Apache License,,
 c119e70cacbcca64,full,fix,B3,<reponame><filename><gh_stars> at offset 0,,
@@ -486,16 +486,16 @@ c68d63f5d85c4101,full,fix,E4,"licence header ""AFL"" offset 0",,
 e958a639c40e76ee,full,fix,B3,<filename><gh_stars> at offset 0,,
 47a1c4e054035846,full,fix,A1;E4,"BOM at offset 0|CR at end of 229 lines, first at offset 20",0 U+FEFF ZERO WIDTH NO-BREAK SPACE|20 U+000D CARRIAGE RETURN (229x),
 66a37626fdec8c95,full,fix,B3,<filename> at offset 0,,
-5f11fd84070f1c29,full,,,,,clean code
-6b079d215d29f501,full,,,,,clean code
-65d6c0c599b30c97,full,,,,,clean code
+5f11fd84070f1c29,full,clean,,,,clean code
+6b079d215d29f501,full,clean,,,,clean code
+65d6c0c599b30c97,full,clean,,,,clean code
 06343db2db811681,full,fix,B3,<filename> at offset 0,,
 b54307ade4032941,full,fix,B3,<reponame> at offset 0,,
-d101648f82622cf0,full,,,,,clean code
+d101648f82622cf0,full,clean,,,,clean code
 b46e41decf3e37b0,full,fix,B3,"CR at end of 97 lines, first at offset 30|<reponame> at offset 0",30 U+000D CARRIAGE RETURN (97x),
-ddaa67c909835030,full,,,,,clean code
+ddaa67c909835030,full,clean,,,,clean code
 dd450abd373003a3,full,fix,B3,<filename> at offset 0,,
-098e6a553dfe698b,full,,,,,clean code
+098e6a553dfe698b,full,clean,,,,clean code
 5cb7aa4d520895d9,full,fix,B4,<NAME> at offset 17 (1x),,Author Date Details Available
 754a2b4952708a8e,full,fix,B3;E4,"<filename> at offset 0|licence header ""Copyright 2026 Pixar"" offset 45 to 1127 (16 lines)",,
 ee89ae6dca086b7e,full,fix,B3,<reponame> at offset 0,,
