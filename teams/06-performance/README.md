@@ -19,7 +19,7 @@ model is a new YAML file in `configs/`, not new code.
 | Attention | 8 heads, width 256, eager; GQA via `model.n_kv_head`; learned positions or `model.position=rope` |
 | FFN | Dense GELU MLP (256 -> 1024 -> 256); `model.activation=swiglu`; `model.ffn=moe`: 1 shared + top-2 of 8 routed |
 | Stack | Reversible midpoint, 6 layers, pre-LN inside `f` |
-| Optimizer | `polar_muon_adamw`: Polar Express Muon on 2D block weights, AdamW on the rest |
+| Optimizer | `polar_muon_adamw`: Polar Express Muon on all trainable 2D parameters with zero decay, AdamW on the rest |
 | MTP | Off; `model.mtp=true` adds a second head on token t+2 |
 
 `configs/tiny_cpu.yaml` is the same model shrunk for a laptop. The plain NanoGPT comparison is
